@@ -1,0 +1,19 @@
+img{
+    width: 400px;
+    height: 400px;
+}
+.photo{
+    background: aqua url(../images/junk.jpg) no-repeat center fixed;
+    background-size: cover;
+}
+.photo img{
+    width: 200px;
+    height: 200px;
+}
+p{
+    background-image: url(../images/gar.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}

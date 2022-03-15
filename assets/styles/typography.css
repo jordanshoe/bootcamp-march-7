@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Sansita+Swashed:wght@700&display=swap');
+/* 
+        font-family: 'Pacifico', cursive;
+        font-family: 'Sansita Swashed', cursive;
+*/
+ul{
+    list-style: upper-roman ;
+    background-color: aqua;
+    list-style-position: inside;
+}
+ul li{
+    background-color: tomato;
+}
+
+h1{
+    background-color: rgba(0, 0,0,.5);
+    color: #ffffff;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+    /* text-shadow:x y z color; */
+    text-shadow: 3px 3px 5px red;
+    /* letter-spacing: -20px; */
+    letter-spacing: 20px;
+}
+h2{
+    font-family: serif;
+    text-transform: lowercase;
+    text-decoration: overline;
+    text-align: right;
+}
+h3{
+    font-family: monospace;
+    text-decoration: line-through;
+}
+.chapter{
+    font-family: 'Sansita Swashed', cursive;
+}
+.chapter-1{
+    text-align: center;
+}
+.chapter-1 .chapter{
+    text-align: left;
+}
+.chapter-1 p{
+    font-family: 'Pacifico', cursive;
+    font-weight: 900;
+    font-style: oblique;
+    text-transform: capitalize;
+    /* word-spacing: -30px; */
+    word-spacing: 30px;
+}
+.chapter-1 p a{
+    font-weight: 300;
+    text-decoration: none;
+}
+.chapter-2{
+    font-size: 20px;
+}
+.chapter-2 p{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-indent: 2em;
+
+}
+.chapter-3{
+    font-size: 20px;
+}
+.chapter-3 p{
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+}
+.chapter-3 p span{
+    font-weight: lighter;
+    font-style: normal;
+}
+ol{
+    list-style: circle inside;
+    background-color: teal;
+}
+ol li{
+    background-color: pink;
+}

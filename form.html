@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form element</title>
+        <!-- external css -->
+    <link rel="stylesheet" href="assets/styles/style.css">
+
+            <!-- internal css -->
+                <style>
+                    body{
+                        background-color: green;
+                    }
+                    form{
+                        background-color: aqua;
+                    }
+                    label{
+                        color: red;
+                    }
+                </style>
+
+
+</head>
+<!-- inline css -->
+<body style="background-color: gray;">
+    <!-- Form Elements
+            form = parent element
+            input
+            label
+            select
+            option
+            textarea
+            button
+
+            attributes:
+                action
+                method
+                type
+                name
+                id
+                placeholder
+                value
+                required
+                minlength
+                maxlength
+                min
+                max
+    -->
+    <form action="https://kredo.jp" method="get">
+        <label for="fullname">Full Name:</label>
+        <input type="text" name="fullname" id="fullname" placeholder="Last Name, First Name" required minlength="5" maxlength="20">
+
+        <label for="email-address">Email Address:</label>
+        <input type="email" name="email-address" id="email-address" placeholder="yourmail@gmail.com">
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="Your Password">
+
+        <label for="age">Age:</label>
+        <input type="number" name="age" id="age" placeholder="Above 18" min="18" max="60">
+
+        <label for="birthday">Birth Date:</label>
+        <input type="date" name="birthday" id="birthday">
+
+        <div>
+            <p>Choose your gender:</p>
+            <input type="radio" name="gender" value="male" id="male" >
+            <label for="male">Male</label>
+
+            <input type="radio" name="gender" value="female" id="female">
+            <label for="female">Female</label>
+
+            <input type="radio" name="gender" value="lgbt" id="lgbt">
+            <label for="lgbt">LGBT</label>
+        </div>
+        <div>
+            <p>Please choose your favorite food:</p>
+            <input type="checkbox" name="food" value="ramen" id="ramen">
+            <label for="ramen">Ramen</label>
+
+            <input type="checkbox" name="food" value="sushi" id="sushi">
+            <label for="sushi">Sushi</label>
+
+            <input type="checkbox" name="food" value="curry" id="curry">
+            <label for="curry">Curry</label>
+
+        </div>
+
+        <label for="device">What is your device?</label>
+        <select name="device" id="device">
+            <option value="" hidden>Select device</option>
+            <option value="macbook">Macbook</option>
+            <option value="ipad">Ipad</option>
+            <option value="smartphone">Smartphone</option>
+        </select>
+        <br>
+        <label for="comment">Comments:</label>
+        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Type your comments here."></textarea>
+        <!-- buttons -->
+        <input type="submit" name="submit" value="ok">
+        <input type="image" src="assets/images/gar.jpg" width="50px" height="30px">
+        <button type="submit" name="send" value="send">send</button>
+        
+    </form>
+    
+</body>
+</html>

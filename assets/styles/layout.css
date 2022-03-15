@@ -1,0 +1,139 @@
+/* Reset Declaration */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    border: 4px solid red;
+    padding: 20px;
+}
+.header h1{
+    /* border: 2px dashed green; */
+    float:left;
+}
+.header .sns{
+    border: 2px dashed black;
+    float: right;
+    margin-top: 1em;
+}
+.sns a{
+    border: 1px solid red;
+    width: 100px;
+    /* display:inline-block; */
+    display: block;
+}
+.header p{
+    /* border: 2px dashed purple; */
+    clear: both;
+}
+.nav{
+    border: 4px solid black;
+    overflow: auto;
+    padding: 20px;
+    /* margin: 1em 0; */
+}
+.nav img{
+    border: 2px dashed yellow;
+    float: left;
+    /* display: none; */
+}
+.nav ul{
+    border: 2px dashed green;
+    float: right;
+    margin-top: 1em;
+}
+.nav ul li{
+    border: 1px solid red;
+    /* display: inline-block; */
+    display: inline;
+    /* margin-top: 10px; */
+    margin-left: 20px;
+}
+.section{
+    border: 4px solid red;
+    overflow: auto;
+}
+.article{
+    border: 2px dashed blue;
+    width: 70%;
+    /* height: 300px; */
+    float: left;
+    padding: 20px;
+}
+.static{
+    border: 2px solid yellow;
+    width: 100px;
+    height: 50px;
+    position: static;
+    left:100px; /*no support*/
+
+}
+.relative{
+    border: 2px solid blue;
+    background-color: blue;
+    width: 100px;
+    height: 50px;
+    position: relative;
+    left: 150px;
+    top: 150px;
+    z-index: 20;
+}
+.fixed{
+    border: 2px solid purple;
+    background-color: purple;
+    width: 100px;
+    height: 50px;
+    position: fixed;
+    right: 0px;
+    bottom: 40px;
+    z-index: 100;
+}
+.absolute{
+    border: 2px solid teal;
+    background-color: teal;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    right: 30px;
+    bottom:50px;
+    z-index: 21;
+}
+.relative-2{
+    border: 2px solid black;
+    background-color: gray;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.sidebar{
+    border: 2px dashed green;
+    width: 30%;
+    height: 300px;
+    float: right;
+    padding: 20px;
+}
+.footer{
+    border: 4px solid black;
+    padding: 10px 20px;text-align: center;
+}
+.footer-sns a{
+    display: block;
+}
+
+/* position properties
+        values:
+            static
+            relative
+            fixed
+            absolute
+
+    offset properties(movement)
+        left:0;
+        top:0;
+        right:
+        bottom:
+
+*/
